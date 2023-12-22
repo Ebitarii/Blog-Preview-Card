@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 50px;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 5%;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+.card-top img{
+    width: 320px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 8%;
+}
+.card-top b{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.card-top p{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* CARD MAIN */
+
+.card-main h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-main p{
+    color: hsl(0, 0%, 50%);
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+/* CARD ICON */
+.card-icon{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.card-icon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.card-icon p{
+    font-size: 15px;
+    font-weight: 800;
+}
+/* ATTRIBUTION */
+
+.attribution {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
